@@ -35,6 +35,8 @@ nav a {
 }
 
 .produtos li {
+    border: 2px solid #000000;
+    border-radius: 10px;
     box-sizing: border-box;
     display: inline-block;
     margin: 0 1.5%;
@@ -42,6 +44,7 @@ nav a {
     text-align: center;
     vertical-align: top;
     width: 30%;
+
 }
 
 .produtos h2 {
