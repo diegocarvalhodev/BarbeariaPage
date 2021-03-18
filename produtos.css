@@ -83,3 +83,9 @@ footer {
     padding: 40px 0;
     text-align: center;
 }
+
+footer .copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
