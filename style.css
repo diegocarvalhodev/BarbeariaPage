@@ -117,13 +117,14 @@ form legend {
     font-size: 18px;
     font-weight: bold;
     padding: 15px 0;
+    transition: 1s all;
     width: 40%;
-    transition: 1s background;
 }
 
 .enviar:hover {
-    cursor: pointer;
     background: darkorange;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 /* Footer */
