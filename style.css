@@ -109,6 +109,23 @@ form legend {
     margin: 20px 0;
 }
 
+.enviar {
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: 1s all;
+    width: 40%;
+}
+
+.enviar:hover {
+    background: darkorange;
+    cursor: pointer;
+    transform: scale(1.2);
+}
 
 /* Footer */
 footer {
