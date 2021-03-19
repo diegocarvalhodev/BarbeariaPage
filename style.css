@@ -1,3 +1,4 @@
+/* Cabeçalho da página */
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -33,6 +34,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/*Página de Produtos*/
 .produtos {
     margin: 0 auto;
     padding: 50px 0;
@@ -78,6 +80,31 @@ nav a:hover {
     margin-top: 10px;
 }
 
+
+/*Página de Contato*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+/* Footer */
 footer {
     background: url("./imagens/bg.jpg");
     padding: 40px 0;
