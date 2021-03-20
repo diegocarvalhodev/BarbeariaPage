@@ -268,9 +268,12 @@ footer .copyright {
 }
 
 .imagem-beneficios {
+    box-shadow: 10px 10px 10px 0 #000000;
     opacity: 1;
     transition: 400ms;
     width: 60%;
+    
+    /*box-shadow: EixoX EixoY Espalhamento IntensidadeDaBordaDaSombraCor*/
 }
 
 .imagem-beneficios:hover {
