@@ -90,9 +90,9 @@ nav a:hover {
 
 
 /*Página de Contato*/
-main {
-    width: 940px;
+.conteudo-contato {
     margin: 0 auto;
+    width: 940px;
 }
 
 form {
@@ -180,6 +180,25 @@ footer .copyright {
     text-align: center;
 }
 
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::before {
+    content: "[";
+}
+
+.titulo-principal::after {
+    content: "]";
+}
+
+.principal {
+    background: #fefefe;
+    padding: 3em 0;
+    margin: 0 auto;
+    width: 940px;
+}
+
 .principal .utensilios {
     float: left;
     margin: 0 20px 20px 0;
@@ -198,12 +217,10 @@ footer .copyright {
     font-style: italic;
 }
 
-.imagembeneficios {
-    width: 60%;
-}
-
 .mapa {
     padding: 3em 0;
+    margin: 0 auto;
+    background: linear-gradient(#fefefe 50%, #888888);
 }
 
 .mapa p {
@@ -211,7 +228,44 @@ footer .copyright {
     text-align: center;
 }
 
+.mapa-conteudo {
+    margin: 0 auto;
+    width: 940px;
+}
+
 .video {
-    margin: 1em auto;
+    margin: 2em auto;
     width: 560px;
+}
+
+.beneficios {
+    background: #888888;
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.lista-beneficios .itens {
+    line-height: 1.5em;
+}
+
+.lista-beneficios .itens::before {
+    content: "★";
+}
+
+.lista-beneficios .itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
 }
