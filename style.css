@@ -1,4 +1,4 @@
-/* Cabeçalho da página */
+/* Cabeçalho */
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -10,6 +10,8 @@ header {
     width: 940px;
 }
 
+
+/* Menu de navegação (Cabeçalho) */
 nav {
     position: absolute;
     top: 110px;
@@ -33,6 +35,7 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
 
 /*Página de Produtos*/
 .produtos {
@@ -127,7 +130,7 @@ form legend {
     transform: scale(1.2);
 }
 
-/*Tabela de horário de funcionamento*/
+/*Tabela de horário de funcionamento (Contato)*/
 table {
     margin: 20px 0 40px;
 }
@@ -157,4 +160,32 @@ footer .copyright {
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px;
+}
+
+
+/* Página inicial */
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
