@@ -210,3 +210,8 @@ footer .copyright {
     margin: 0 0 2em;
     text-align: center;
 }
+
+.video {
+    margin: 1em auto;
+    width: 560px;
+}
