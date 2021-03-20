@@ -198,10 +198,6 @@ footer .copyright {
     font-style: italic;
 }
 
-.imagembeneficios {
-    width: 60%;
-}
-
 .mapa {
     padding: 3em 0;
 }
@@ -212,6 +208,33 @@ footer .copyright {
 }
 
 .video {
-    margin: 1em auto;
+    margin: 2em auto;
     width: 560px;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.lista-beneficios .itens {
+    line-height: 1.5em;
+}
+
+.lista-beneficios .itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
 }
