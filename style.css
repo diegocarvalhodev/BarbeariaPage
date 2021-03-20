@@ -175,6 +175,7 @@ footer .copyright {
 
 .titulo-principal {
     clear: left;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 2em;
     margin: 0 0 1em;
     text-align: center;
@@ -267,5 +268,11 @@ footer .copyright {
 }
 
 .imagem-beneficios {
+    opacity: 1;
+    transition: 400ms;
     width: 60%;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
