@@ -1,3 +1,8 @@
+/* Formatação global */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Cabeçalho */
 header {
     background: #bbbbbb;
@@ -195,4 +200,18 @@ footer .copyright {
 
 .imagembeneficios {
     width: 60%;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    margin: 1em auto;
+    width: 560px;
 }
