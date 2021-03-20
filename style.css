@@ -279,3 +279,9 @@ footer .copyright {
 .imagem-beneficios:hover {
     opacity: 0.3;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+}
