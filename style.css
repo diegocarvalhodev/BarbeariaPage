@@ -180,6 +180,18 @@ footer .copyright {
     text-align: center;
 }
 
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::before {
+    content: "[";
+}
+
+.titulo-principal::after {
+    content: "]";
+}
+
 .principal {
     background: #fefefe;
     padding: 3em 0;
@@ -244,6 +256,10 @@ footer .copyright {
 
 .lista-beneficios .itens {
     line-height: 1.5em;
+}
+
+.lista-beneficios .itens::before {
+    content: "★";
 }
 
 .lista-beneficios .itens:first-child {
