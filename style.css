@@ -169,9 +169,16 @@ footer .copyright {
 }
 
 .titulo-principal {
+    clear: left;
     font-size: 2em;
     margin: 0 0 1em;
     text-align: center;
+}
+
+.principal .utensilios {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 120px;
 }
 
 .principal p {
