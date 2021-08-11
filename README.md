@@ -1,6 +1,6 @@
 # Barbearia 🧔🏽
 
-### Projeto pessoal para estudar com as tecnologias
+### Projeto pessoal para estudar HTML e CSS.
 
 <div style="display: inline-block">
   <img alt="HTML" height="60px" width="60px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg">
